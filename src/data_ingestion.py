@@ -5,7 +5,7 @@ import subprocess
 import logging
 import shutil
 
-logger = logging.getLogger("airflow.task")
+logger = logging.getLogger("data_ingestion.task")
 
 
 def download_data(**kwargs):
